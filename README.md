@@ -9,8 +9,9 @@ This story map presents the basic profiles for all public schools in Chicago. Th
 - The last slide shows the overall summary of a selected school.
 ### Interactive functions
 This story map has some basic interactive functions that allows user's inputs, selections, and swifts back and forth. The main interactive functions include:
-- A next and previous button for changing slides.
-- Hiding and showing different elements for different slides' need.
-- Checkboxes for school filtering by theme of the slides.
-- Clicking a school point/marker and zoom in to detailed school context.
-- Customized style for text areas, buttons, and markers.
+- Changing slides by a next and previous button.
+- Resetting slides by a reset button.
+- Filtering schools by the theme of the slides by checkboxes.
+- Clicking a school point/marker and zoom in to target and show school information (slide 4 & 5).
+- Hiding and showing different elements for different contents of the slides.
+- Customized styles for text areas, buttons, and markers.

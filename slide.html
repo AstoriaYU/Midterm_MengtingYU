@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <!-- CSS Imports -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css" integrity="sha256-YR4HrDE479EpYZgeTkQfgVJq08+277UXxMLbi/YP69o=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <br>
+    <div id="cboxarea">
+      <label id="checkbox-label1" for="cbox-input1"></label><input type="checkbox" id="cbox-input1"><br><br>
+      <label id="checkbox-label2" for="cbox-input2"></label><input type="checkbox" id="cbox-input2"><br><br>
+      <label id="checkbox-label3" for="cbox-input3"></label><input type="checkbox" id="cbox-input3"><br><br>
+    </div>
+    <div id="numberarea">
+      <label id="number-label1" for="numeric-input1"></label><input type="number" id="numeric-input1"><br><br>
+      <label id="number-label2" for="numeric-input2"></label><input type="number" id="numeric-input2"><br><br>
+    </div>
+    <div class="card" id="infoarea">
+      <br>
+      <div class="school-title" id="schooltitle">School title</div>
+      <div class="school-type" id="schooltype">Type</div>
+      <div class="school-address" id="schooladdress">Address</div>
+      <div class="school-evaluation" id="schooleval">Evaluation</div>
+    </div>
+    <div class="card" id="summary">
+      <div class="school-title" id="schooltitle2">School title</div>
+      <div class="summary-story" id="schoolsummary">Summary</div>
+    </div>
+    <div class="story" id="story">
+      <div class="summary-story" id="schoolstory"></div>
+    </div>
+    <div class = "button-area" id="buttonarea">
+      <br>
+      <br>
+      <button class= "blue" id="next">next</button>
+      <button class= "purple" id="previous">previous</button>
+      <button class = "cyan" id="filter">filter</button>
+      <button class = "red" id="reset">reset</button>
+    </div>
+  </div>
+  <!-- Map -->
+  <div id="map" style="height:100%; position:absolute; right:0px; left:400px"></div>
+  <!-- Legend -->
+  <div class="legend" id="legend"></div>
+  <!-- Javascript Imports -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js" integrity="sha256-6BZRSENq3kxI4YYBDqJ23xg0r1GwTHEpvp3okdaIqBw=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js" integrity="sha256-O4179En8zabOlPYBNvGp8cF0uh0vnSZpW4Q6Ul1h+8c=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="schoolsPoint.geojson"></script>
+  <script src="schools_count.geojson"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -7,6 +7,7 @@ This story map presents the basic profiles for all public schools in Chicago. Th
 - The third shows the total student numbers in quantile break.
 - The fourth shows the name, type, address, and evaluation of a selected school.
 - The last slide shows the overall summary of a selected school.
+
 ### Interactive functions
 This story map has some basic interactive functions that allows user's inputs, selections, and swifts back and forth. The main interactive functions include:
 - Changing slides by a next and previous button.
